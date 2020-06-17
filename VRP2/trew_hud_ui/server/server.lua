@@ -16,7 +16,7 @@ local info = {
   hunger = "0",
   thirst = "0",
 
-  job = "Duck Mastrer",
+  job = "Unemployed",
 
   money = "0",
   bankMoney = "0",
