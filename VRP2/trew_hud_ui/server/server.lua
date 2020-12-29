@@ -34,6 +34,7 @@ AddEventHandler('trew_hud_ui:getServerInfo', function()
     info.job = user:getGroupByType('job')
     info.money = user:getWallet()
     info.bankMoney = user:getBank()
+    info.blackMoney = user:getItemAmount(Config.vRP.items.blackMoney)
     TriggerClientEvent('trew_hud_ui:setInfo', source, info)
   end
 end)
